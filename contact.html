@@ -167,6 +167,30 @@
 <footer>
     <p>&copy; 2026 Remy Aisha Hijabis. All Rights Reserved.</p>
 </footer>
+<script>
+    document.getElementById("enquiryForm").addEventListener("submit", function(event) {
 
+        event.preventDefault();
+
+        const formData = new FormData(this);
+
+        const message =
+            "NEW CUSTOMER ENQUIRY\n\n" +
+            "Name: " + formData.get("name") + "\n" +
+            "Email: " + formData.get("email") + "\n" +
+            "Phone: " + formData.get("phone") + "\n" +
+            "Product: " + formData.get("product") + "\n" +
+            "Subject: " + formData.get("subject") + "\n" +
+            "Message: " + formData.get("message") + "\n" +
+            "Preferred Contact: " + formData.get("contact_method");
+
+        const whatsappURL =
+            "https://wa.me/256765996422?text=" +
+            encodeURIComponent(message);
+
+        window.location.href = whatsappURL;
+
+    });
+</script>
 </body>
 </html>
