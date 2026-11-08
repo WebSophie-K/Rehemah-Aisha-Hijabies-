@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-This project is an informational website developed for Remy Aisha Hijabis, a modest fashion boutique located in Kampala, Uganda.
+This project is an informational website developed for Remy Aisha Hijabies, a modest fashion boutique located in Kampala, Uganda.
 
 The website provides customers with information about the business, its products, services, location and contact details.
 
