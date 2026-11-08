@@ -94,67 +94,71 @@
 
         <h2>Send Us an Enquiry</h2>
 
-        <form action="#" method="post">
+<form id="enquiryForm">
 
-            <fieldset>
-                <legend>Customer Information</legend>
+    <fieldset>
+        <legend>Customer Information</legend>
 
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
 
-                <br><br>
+        <br><br>
 
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
 
-                <br><br>
+        <br><br>
 
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone"
-                       pattern="[0-9+ ]{9,15}"
-                       title="Enter a valid phone number"
-                       required>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"
+               pattern="[0-9+ ]{9,15}"
+               title="Enter a valid phone number"
+               required>
 
-                <br><br>
+        <br><br>
 
-                <label for="product">Product of Interest:</label>
-                <select id="product" name="product" required>
-                    <option value="">Select a product</option>
-                    <option value="Hijab">Hijab</option>
-                    <option value="Abaya">Abaya</option>
-                    <option value="Dress">Dress</option>
-                    <option value="Veil">Veil</option>
-                    <option value="Skirt">Skirt</option>
-                    <option value="Other">Other</option>
-                </select>
+        <label for="product">Product of Interest:</label>
+        <select id="product" name="product" required>
+            <option value="">Select a product</option>
+            <option value="Hijab">Hijab</option>
+            <option value="Abaya">Abaya</option>
+            <option value="Dress">Dress</option>
+            <option value="Veil">Veil</option>
+            <option value="Skirt">Skirt</option>
+            <option value="Other">Other</option>
+        </select>
 
-                <br><br>
+        <br><br>
 
-                <label for="subject">Enquiry Subject:</label>
-                <input type="text" id="subject" name="subject" required>
+        <label for="subject">Enquiry Subject:</label>
+        <input type="text" id="subject" name="subject" required>
 
-                <br><br>
+        <br><br>
 
-                <label for="message">Your Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message"
+                  rows="5" required></textarea>
 
-                <br><br>
+        <br><br>
 
-                <p>Preferred Contact Method:</p>
+        <p>Preferred Contact Method:</p>
 
-                <input type="radio" id="whatsapp" name="contact_method" value="WhatsApp" required>
-                <label for="whatsapp">WhatsApp</label>
+        <input type="radio" id="whatsapp"
+               name="contact_method" value="WhatsApp" required>
+        <label for="whatsapp">WhatsApp</label>
 
-                <input type="radio" id="phone_call" name="contact_method" value="Phone Call">
-                <label for="phone_call">Phone Call</label>
+        <input type="radio" id="phone_call"
+               name="contact_method" value="Phone Call">
+        <label for="phone_call">Phone Call</label>
 
-                <br><br>
+        <br><br>
 
-                <button type="submit">Send Enquiry</button>
+        <button type="submit">Send Enquiry</button>
 
-            </fieldset>
+    </fieldset>
 
-        </form>
+</form>
+        
 
     </section>
 
